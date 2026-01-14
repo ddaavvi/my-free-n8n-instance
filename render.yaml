@@ -37,18 +37,18 @@ services:
         value: postgresdb
       - key: DB_POSTGRESDB_DATABASE
         fromDatabase:
-          name: n8n-db
+          name: postgres.ezsyaldvorpaohsjxqrv
           property: database
       - key: DB_POSTGRESDB_HOST
         fromDatabase:
-          name: n8n-db
+          name: postgres.ezsyaldvorpaohsjxqrv
           property: host
       - key: DB_POSTGRESDB_PASSWORD
         fromDatabase:
-          name: n8n-db
+          name: postgres.ezsyaldvorpaohsjxqrv
           property: password
       - key: DB_POSTGRESDB_USER
         fromDatabase:
-          name: n8n-db
+          name: postgres.ezsyaldvorpaohsjxqrv
           property: user
 
